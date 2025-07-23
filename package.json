@@ -1,0 +1,42 @@
+{
+  "name": "api-de-blog-simple-",
+  "version": "1.0.0",
+  "description": "Esto sera un proyecto donde estare poniendo en practica todo lo que llevo aprendido por los momentos, hare una api de blog simple con autenticacion basica",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelitoo777/API-de-blog-simple-.git"
+  },
+  "keywords": [],
+  "author": "Angel Oropeza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelitoo777/API-de-blog-simple-/issues"
+  },
+  "homepage": "https://github.com/Angelitoo777/API-de-blog-simple-#readme",
+  "dependencies": {
+    "bcrypt": "6.0.0",
+    "cookie-parser": "1.4.7",
+    "dotenv": "17.2.0",
+    "express": "5.1.0",
+    "jsonwebtoken": "9.0.2",
+    "mysql2": "3.14.2",
+    "redis": "5.6.0",
+    "redis-commander": "0.9.0",
+    "sequelize": "6.37.7",
+    "zod": "4.0.5",
+    "zod-error": "1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.10",
+    "standard": "17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
