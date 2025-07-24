@@ -110,6 +110,8 @@ export class PostController {
       update.content = content
       update.save()
 
+      await client.del('posts')
+
       return res.status(200).json(update)
     } catch (e) {
       throw new Error(e.message)
@@ -121,6 +123,8 @@ export class PostController {
 
     try {
       await Post.destroy({ where: { id } })
+
+      await client.del('posts')
 
       return res.status(204).send('Deleted')
     } catch (e) {
